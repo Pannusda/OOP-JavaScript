@@ -27,7 +27,7 @@ class Gradebook{
     students=[]
     addStudent(student){
         this.students.push(student)
-}
+    }
     getStudent(name){
         let find_std
         this.students.find(findStudent=>{
